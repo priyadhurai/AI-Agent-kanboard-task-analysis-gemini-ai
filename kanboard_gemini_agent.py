@@ -45,9 +45,9 @@ if not all([GEMINI_API_KEY, KANBOARD_URL, KANBOARD_USER, KANBOARD_TOKEN, PROJECT
     sys.exit(2)
 
 # ---- Google GenAI Client ----
-gemini_client = genai.Client(api_key="AIzaSyD16myxXx4K-MyANqBceZFk-FZ2rXvG0Sc")
+gemini_client = genai.Client(api_key="xxxxxxxxxxxxxxxxx")
 
-client = Client(api_key="AIzaSyD16myxXx4K-MyANqBceZFk-FZ2rXvG0Sc")
+client = Client(api_key="xxxxxxxxxxxxxxxxxxxxxxxxx")
 
 # ---- Kanboard helper ----
 
@@ -254,3 +254,4 @@ def run(test_only=True):
 
 if __name__ == "__main__":
     run(test_only=False)  # Set to False to send email
+
